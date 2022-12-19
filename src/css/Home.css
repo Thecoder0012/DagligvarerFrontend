@@ -1,0 +1,57 @@
+
+.main-video {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  video {
+    pointer-events:none;        
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  
+  .overlay video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.278);
+  }
+  
+    .each-slide-effect-img > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: cover;
+      height: 60em;
+    }
+    
+    .each-slide-effect-img span {
+      border-radius: 50%;
+      padding: 20px;
+      font-size: 20px;
+      background: black;
+      color: white;
+      text-align: center;
+    }
+  
+  
+  
+    
+  
+  
+  
