@@ -6,10 +6,11 @@ import Video from "../video/video.mp4"
 function Home() {
   return (
     <div>
-        <div className='main-video'>
-                    <div className="overlay"></div>
+        <div className='video-container'>
+                    <div className="shadow"></div>
                         <video src={Video} autoPlay loop muted />
-                            <div className="content">
+                            <div className="text">
+                                <h1>Velkommen til denne dagligvarer webshop</h1>
                             </div>
                 </div>
 

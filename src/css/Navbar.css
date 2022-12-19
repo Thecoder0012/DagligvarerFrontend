@@ -5,8 +5,7 @@
     box-sizing: border-box;
     border: none;
  }
- 
- 
+
  li{
     list-style: none;
     display: inline;
@@ -20,6 +19,12 @@
     font-weight: 100;
 
  }
+
+ nav a.active{
+   text-decoration: underline;
+ }
+
+
 
  .container ul a:hover{
     text-decoration: underline;
