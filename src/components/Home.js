@@ -10,7 +10,7 @@ function Home() {
                     <div className="shadow"></div>
                         <video src={Video} autoPlay loop muted />
                             <div className="text">
-                                <h1>Velkommen til denne dagligvarer webshop</h1>
+                                <h1>Velkommen til dagligvarer webshoppen</h1>
                             </div>
                 </div>
 

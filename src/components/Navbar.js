@@ -10,7 +10,8 @@ export default function Navbar() {
     <ul>
         <li> <NavLink to="/">Hjem</NavLink> </li>
         <li> <NavLink to="/products">Produkter</NavLink> </li>
-        <li> <NavLink to="/delivery">Bestilling</NavLink> </li>
+        <li> <NavLink to="/order">Bestillinger</NavLink> </li>
+        <li> <NavLink to="/delivery">Levering</NavLink> </li>
 
     </ul>
 
