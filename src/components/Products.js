@@ -7,21 +7,20 @@ import '../css/Products.css';
 
 function Products() {
 
-const productUrl = 'http://localhost:8080/api/v1/product'
-const [products,setProducts] = useState([])
-const [loading,setLoading] = useState(false)
-const [searchInput, setSearchInput] = useState(true)
-console.log(searchInput);
-const [showProducts,setShowProducts] = useState(false)
-const [addProduct, setAddProduct] = useState(false)
-const [editProductForm, setEditProductForm] = useState(false)
+    const productUrl = 'http://localhost:8080/api/v1/product'
+    const [products,setProducts] = useState([])
+    const [loading,setLoading] = useState(false)
+    const [searchInput, setSearchInput] = useState(true)
+    const [showProducts,setShowProducts] = useState(false)
+    const [addProduct, setAddProduct] = useState(false)
+    const [editProductForm, setEditProductForm] = useState(false)
 
-const [productId, setProductId] = useState()
-const [searchValue, setSearchValue] = useState()
-const [foundProduct,setFoundProduct] = useState()
-const [productName, setProductName] = useState()
-const [price,setPrice] = useState()
-const [weight,setWeight] = useState()
+    const [productId, setProductId] = useState()
+    const [searchValue, setSearchValue] = useState()
+    const [foundProduct,setFoundProduct] = useState()
+    const [productName, setProductName] = useState()
+    const [price,setPrice] = useState()
+    const [weight,setWeight] = useState()
 
 
 async function findAllproducts(){
@@ -92,7 +91,7 @@ useEffect(() => {
 
 <div className="buttons">
                 <button className="add" onClick={()=>
-                    {{
+                {{
                         if(showProducts || editProductForm || foundProduct){
                             setShowProducts(false);
                             setEditProductForm(false)

@@ -122,14 +122,11 @@ const createOrder = async (e) => {
     <thead>
         <tr>
             <th>Ordre-id</th>
-            {/* <th>Produkt-id</th> */}
             <th>Produkt navn</th>
             <th>Pris</th>
             <th>Vægt</th>
             <th>Antal</th>
             <th>Totale pris</th>
-
-            {/* <th>Leverings-id</th> */}
             <th>Leveringdato</th>
             <th>Lager</th>
             <th>Destination</th>
@@ -143,13 +140,11 @@ const createOrder = async (e) => {
     {orders.map((order, i) => (
             <tr key={i}>
                 <td>{order.id}</td>
-                {/* <td>{order.product.id}</td> */}
                 <td>{order.product.name}</td>
                 <td>{order.product.price} kr</td>
                 <td>{order.product.weight} gram</td>
                 <td>{order.quantity}</td>
                 <td>{order.quantity * order.product.price} kr</td>
-                {/* <td>{order.delivery.id}</td> */}
                 <td>{order.delivery.deliveryDate}</td>
                 <td>{order.delivery.wareHouse}</td>
                 <td>{order.delivery.destination}</td>
