@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# This project was created with react.js and spring-boot. React.js for the frontend and spring-boot for the backend(rest apis, database).
+With this website you will be able to place an order with a product and a delivery.
+
+# Website
+<img width="930" alt="image" src="https://user-images.githubusercontent.com/92215742/212360284-31365ee6-13c9-41bf-b708-b78475dc86b3.png">
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/92215742/212363904-5fe01432-a819-4bad-80b8-fbe26cded158.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/92215742/212361877-83e5a5ac-92d2-40b5-9cf6-f3bc827a3c8a.png">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
